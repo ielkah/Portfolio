@@ -1,0 +1,200 @@
+/* Importation d'une police moderne */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style général du body */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- HEADER --- */
+header {
+    background: #1E1E2F;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    background: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #ff4500;
+}
+
+/* --- SECTIONS GÉNÉRALES --- */
+section {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- BOUTONS --- */
+.btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #ff4500;
+}
+
+/* --- PROJETS --- */
+.project {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #ff6600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    background: #f1f1f1;
+}
+
+/* --- FORMULAIRE DE CONTACT --- */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    background: #ff4500;
+}
+
+/* --- TABLEAU DE COMPÉTENCES --- */
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.tech-icons img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-icons img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+/* --- SECTIONS GÉNÉRALES --- */
+section {
+    max-width: 1100px;
+    margin: 60px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+.prog img {
+    width: 800px;  /* Taille intermédiaire pour un bon rendu */
+    height: auto;  /* Conserve les proportions */
+    max-width: 100%; /* Empêche l'image de dépasser son conteneur */
+    display: block; /* Évite les espaces blancs indésirables */
+    margin: 15px auto; /* Centre et ajoute un peu d’espace */
+    border-radius: 10px; /* Arrondi les bords pour un meilleur style */
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Effet d’ombre pour un rendu plus pro */
+}
+
+
+
+/* --- TITRES & TEXTES --- */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1E1E2F;
+    color: white;
+    margin-top: 50px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Ajout de styles pour l'affichage des images */
+        .tech-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .tech-icons img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            border: 3px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tech-icons img:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section-content {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titreu">Compétences</h1>
+        <nav>
+            <ul>
+                <a href="index.html" class="btn-primary">Accueil</a>
+                <a href="projects.html" class="btn-primary">Voir tous mes projets</a>
+                <a href="skills.html" class="btn-primary">Compétences</a>
+                <a href="contact.html" class="btn-primary">Contact</a>
+                <a href="https://www.linkedin.com/in/isshaq-el-kah-33b118293/" target="_blank" class="btn-primary">LinkedIn</a>
+                <a href="cv.pdf" download class="btn-primary">Télécharger CV</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section-content">
+        <h2>Compétences techniques</h2>
+        <ul>
+            <!-- Développement Web -->
+            <li>
+                <strong>Développement Web :</strong> HTML, CSS, JavaScript, frameworks comme React ou Bootstrap
+                <div class="tech-icons">
+                    <img src="image/imghtml.jpeg" alt="HTML">
+                    <img src="image/reactimg.png" alt="React">
+                    <img src="image/bootstrapimg.jpg" alt="Bootstrap">
+                </div>
+            </li>
+
+            <!-- Langages de programmation -->
+            <li>
+                <strong>Langages de programmation :</strong> Python, Java, C, C++
+                <div class="tech-icons">
+                    <img src="image/imgpython.jpeg" alt="Python">
+                    <img src="image/java.png" alt="Java">
+                    <img src="image/C.jpg" alt="C">
+                    <img src="image/c++.jpg" alt="C++">
+                </div>
+            </li>
+
+            <!-- Bases de données -->
+            <li><strong>Base de données :</strong> SQL (MySQL, PostgreSQL), NoSQL (MongoDB)
+                <div class="tech-icons">
+                    <img src="image/sql.jpg" alt="SQL">
+                </div>
+            </li>
+
+            <!-- Logiciels de développement et IDE -->
+            <li><strong>Environnements de développement :</strong> Visual Studio Code, IntelliJ IDEA, Eclipse, PyCharm
+                <div class="tech-icons">
+                    <img src="image/VScode.jpg" alt="VSCode">
+                    <img src="image/Intelligi.jpg" alt="IntelliJ">
+                    <img src="image/eclipse.png" alt="Eclipse">
+                    <img src="image/Pych.jpg" alt="PyCharm">
+                </div>
+            </li>
+
+            <!-- Outils de gestion de version -->
+            <li><strong>Gestion de versions :</strong> Git, GitHub, GitLab
+                <div class="tech-icons">
+                    <img src="image/git.jpg" alt="Git">
+                    <img src="image/github.jpg" alt="GitHub">
+                    <img src="image/GitLab.jpg" alt="GitLab">
+                </div>
+            </li>
+
+            <!-- Systèmes d'exploitation -->
+            <li><strong>Systèmes d'exploitation :</strong> Linux, Windows, MacOS
+                <div class="tech-icons">
+                    <img src="image/linux.png" alt="Linux">
+                    <img src="image/Windows.png" alt="Windows">
+                    <img src="image/macOS.jpg" alt="MacOS">
+                </div>
+            </li>
+
+            <!-- Outils de virtualisation et conteneurisation -->
+            <li><strong>Virtualisation et conteneurisation :</strong> Docker, VirtualBox
+                <div class="tech-icons">
+                    <img src="image/docker.jpg" alt="Docker">
+                    <img src="image/virtualbox.jpg" alt="VirtualBox">
+                </div>
+            </li>
+
+            <!-- Outils de modélisation -->
+            <li><strong>Modélisation et UML :</strong> Visual Paradigm</li>
+            <div class="tech-icons"><img src="image/VisualP.jpg" alt="VirtualBox"></div>
+            
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 El Kah Isshaq. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
