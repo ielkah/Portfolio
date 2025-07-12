@@ -171,7 +171,7 @@ section {
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Effet d’ombre pour un rendu plus pro */
 }
 .progUNO img {
-    width: 450px;  /* Taille intermédiaire pour un bon rendu */
+    width: 400px;  /* Taille intermédiaire pour un bon rendu */
     height: auto;  /* Conserve les proportions */
     max-width: 100%; /* Empêche l'image de dépasser son conteneur */
     display: block; /* Évite les espaces blancs indésirables */
