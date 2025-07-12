@@ -170,7 +170,15 @@ section {
     border-radius: 10px; /* Arrondi les bords pour un meilleur style */
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Effet d’ombre pour un rendu plus pro */
 }
-
+.progUNO img {
+    width: 600px;  /* Taille intermédiaire pour un bon rendu */
+    height: auto;  /* Conserve les proportions */
+    max-width: 100%; /* Empêche l'image de dépasser son conteneur */
+    display: block; /* Évite les espaces blancs indésirables */
+    margin: 15px auto; /* Centre et ajoute un peu d’espace */
+    border-radius: 10px; /* Arrondi les bords pour un meilleur style */
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Effet d’ombre pour un rendu plus pro */
+}
 
 
 /* --- TITRES & TEXTES --- */
